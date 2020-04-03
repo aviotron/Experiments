@@ -38,16 +38,21 @@
   <header>
     <h1>My Experiments</h1>
   </header>
-  <div class="bordered-div">
 
-    <model-viewer ar src="https://cdn.glitch.com/db051546-dcc8-4eb0-b6b8-5cde88373da3%2Fmonkey.glb?v=1585896099841"
-      width="100%" auto-rotate camera-controls alt="Monkey" background-color="#455A64"></model-viewer>
-  </div>
 
   <div class="bordered-div">
 
-    <model-viewer ar src="https://github.com/aviotron/Experiments/blob/gh-pages/assets/donut.glb?raw=true" auto-rotate
-      camera-controls alt="Donut" background-color="#455A64"></model-viewer>
+    <model-viewer 
+    class="viewer"
+    ar 
+    src="https://github.com/aviotron/Experiments/blob/gh-pages/assets/donut.glb?raw=true" 
+    ios-src="https://github.com/aviotron/Experiments/blob/gh-pages/assets/donut.usdz?raw=true"
+    auto-rotate
+    camera-controls 
+    alt="Donut" 
+    background-color="#455A64"
+    unstable-webxr
+    ></model-viewer>
   </div>
 </body>
 
