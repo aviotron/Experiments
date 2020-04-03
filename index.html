@@ -20,7 +20,8 @@
   
     gtag('config', 'UA-84672821-3');
   </script>
-  
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
   </head>
     <body>
        
@@ -30,6 +31,8 @@
         <header>
             <h1>My Experiments</h1>
         </header>
+
+        <model-viewer ar src="monkey.glb" auto-rotate camera-controls alt="Chair" background-color="#455A64"></model-viewer>
         
         <script src="" async defer></script>
     </body>
