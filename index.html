@@ -2,39 +2,55 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Avinash - Experiments</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="app.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Avinash - Experiments</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="app.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84672821-3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-84672821-3');
   </script>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-  </head>
-    <body>
-       
-        <!--[if lt IE 7]>
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
-            <h1>My Experiments</h1>
-        </header>
-        <div class="bordered-div">
+  <header>
+    <h1>My Experiments</h1>
+  </header>
+  <div class="bordered-div">
 
-        <model-viewer ar src="https://cdn.glitch.com/db051546-dcc8-4eb0-b6b8-5cde88373da3%2Fmonkey.glb?v=1585896099841" auto-rotate camera-controls alt="Monkey" background-color="#455A64"></model-viewer>
-      </div>
-       
-    </body>
+    <model-viewer ar src="https://cdn.glitch.com/db051546-dcc8-4eb0-b6b8-5cde88373da3%2Fmonkey.glb?v=1585896099841"
+      auto-rotate camera-controls alt="Monkey" background-color="#455A64"></model-viewer>
+  </div>
+
+  <div class="bordered-div">
+
+    <model-viewer ar src="https://github.com/aviotron/Experiments/blob/gh-pages/assets/donut.glb?raw=true"
+      auto-rotate camera-controls alt="Donut" background-color="#455A64"></model-viewer>
+  </div>
+  
+
+</body>
+
 </html>
