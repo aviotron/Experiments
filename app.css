@@ -56,6 +56,6 @@ header{
 
 .bordered-div{
     border: 1px solid rgb(204, 204, 204);
-    margin: 0 7%;
+    margin: 2% 7%;
     border-radius: 2px;
 }
