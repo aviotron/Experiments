@@ -26,6 +26,7 @@
 
     gtag('config', 'UA-84672821-3');
   </script>
+  
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
@@ -55,6 +56,26 @@
    
 
     ></model-viewer>
+  </div>
+
+  <div class="bordered-div">
+    <model-viewer 
+    src="assets/chair2.glb" 
+    ios-src="assets/chair2.usdz"
+    
+    camera-controls exposure="1.05" shadow-intensity="0.6" shadow-softness="0.99" ar>
+
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+      </div>
+  </model-viewer>
+  
   </div>
 
 
